@@ -1,0 +1,37 @@
+name: DiscoReview
+main: me.DiscoDuck.DiscoReview.DiscoReview
+version: 1.0
+description: Review plugin.
+authors: [DiscoDuck]
+commands:
+  review:
+    description: Review Command Management
+permissions:
+   review.review:
+     description: Review Command Management
+     permission-message: You are not allowed to do that.
+     default: true
+   review.alert:
+     description: Review Command Management
+     permission-message: You are not allowed to do that.
+     default: op
+   review.goto:
+     description: Review Command Management
+     permission-message: You are not allowed to do that.
+     default: op
+   review.support:
+     description: Review Command Management
+     permission-message: You are not allowed to do that.
+     default: true
+   review.accept:
+     description: Review Command Management
+     permission-message: You are not allowed to do that.
+     default: op
+   review.decline:
+     description: Review Command Management
+     permission-message: You are not allowed to do that.
+     default: op
+   review.list:
+     description: Submits List Command
+     permission-message: You are not allowed to do that.
+     default: op

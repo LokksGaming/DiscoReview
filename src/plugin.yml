@@ -1,0 +1,37 @@
+name: DiscoReview
+main: me.DiscoDuck.DiscoReview.DiscoReview
+version: 1.0
+description: Review plugin.
+authors: [DiscoDuck]
+commands:
+  review:
+    description: Base command for the plugin
+permissions:
+   review.review:
+     description: Allows players to submit and cancel their plot
+     permission-message: You are not allowed to do that.
+     default: true
+   review.alert:
+     description: Allows admins to see when a player submits a plot
+     permission-message: You are not allowed to do that.
+     default: op
+   review.goto:
+     description: Allows admins to teleport to the submitted plot location
+     permission-message: You are not allowed to do that.
+     default: op
+   review.support:
+     description: Allows players to call for support from an admin
+     permission-message: You are not allowed to do that.
+     default: true
+   review.accept:
+     description: Allows admins to accept a plot
+     permission-message: You are not allowed to do that.
+     default: op
+   review.decline:
+     description: Allows admins to decline a plot
+     permission-message: You are not allowed to do that.
+     default: op
+   review.list:
+     description: Allows admins to see a list of submitted plots
+     permission-message: You are not allowed to do that.
+     default: op

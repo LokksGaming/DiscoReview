@@ -1,2 +1,4 @@
 # DiscoReview
-A review plugin for Minecraft.
+Please review the wiki for important information about the plugin.
+
+

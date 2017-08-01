@@ -1,0 +1,36 @@
+name: DiscoReview
+main: me.DiscoDuck.DiscoReview.DiscoReview
+version: 1.0
+description: Review plugin.
+authors: [DiscoDuck]
+commands:
+  build:
+    description: Base command for the plugin
+permissions:
+   discoreview.review:
+     description: Allows players to submit and cancel their plot
+     default: op
+   discoreview.alert:
+     description: Allows admins to see when a player submits a plot
+     default: op
+   discoreview.goto:
+     description: Allows admins to teleport to the submitted plot location
+     default: op
+   discoreview.support:
+     description: Allows players to call for support from an admin
+     default: op
+   discoreview.accept:
+     description: Allows admins to accept a plot
+     default: op
+   discoreview.decline:
+     description: Allows admins to decline a plot
+     default: op
+   discoreview.list:
+     description: Allows admins to see a list of plots
+     default: op
+   discoreview.new:
+     description: Allows admins to clear players' build data
+     default: op
+   discoreview.world:
+     description: Allows admins to add submit worlds
+     default: op
